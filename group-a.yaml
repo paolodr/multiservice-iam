@@ -1,0 +1,15 @@
+--- 
+name: <group-name> 
+members: 
+  - abc.test1@domain.com 
+  - qwerty@domain.com 
+aws: 
+  roles: 
+    - <AWS-ROLE> 
+  accounts: 
+    - <AWS_account_id>  
+    - <AWS_account_id> 
+jfrog: 
+  permissions: 
+    - <Jfrog_permission_target> 
+    - <Jfrog_permission_target> 
