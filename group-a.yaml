@@ -13,3 +13,15 @@ jfrog:
   permissions: 
     - <Jfrog_permission_target> 
     - <Jfrog_permission_target> 
+rancher:
+  cluster:
+    cluster-a:
+       cluster-level:
+        - cluster-owner
+    cluster-b:
+      cluster-level:
+        - cluster-member
+      default:
+        - project-member
+      project-1
+        - project-member
