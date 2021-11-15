@@ -23,5 +23,5 @@ rancher:
         - cluster-member
       default:
         - project-member
-      project-1
+      project-1:
         - project-member
